@@ -24,7 +24,7 @@ server {
     proxy_pass  http://localhost:8000;
   }
 
-  location /pihole {
+  location /pihole/ {
     proxy_pass  http://localhost:8093/;
   }
 }
