@@ -1,9 +1,0 @@
-server {
-  listen        80;
-  server_name   echo.puzzled-pi.com;
-  access_log    logs/echo.access.log;
-
-  location /echo {
-    proxy_pass  http://127.0.0.1:8000;
-  }
-}
