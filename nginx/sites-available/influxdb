@@ -1,7 +1,7 @@
 server {
   listen 80;
 
-  server_name influxb.puzzled-pi.com;
+  server_name influxdb.puzzled-pi.com;
   access_log  logs/influxdb.access.log;
 
   location / {
