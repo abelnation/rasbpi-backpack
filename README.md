@@ -38,10 +38,11 @@ Start on re-boot:
 sudo systemctl enable nginx
 ```
 
-## monitoring
+## grafana
+
+https://grafana.com/grafana/download?platform=arm
 
 ```
-sudo apt-get install collectd rrdtool php5-common -y
-sudo /etc/init.d/collectd stop
-sudo mv /etc/collectd/collectd.conf /etc/collectd/collectd.conf_backup
+wget https://dl.grafana.com/oss/release/grafana_6.1.4_armhf.deb
+sudo dpkg -i grafana_6.1.4_armhf.deb
 ```
