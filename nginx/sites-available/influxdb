@@ -1,8 +1,8 @@
 server {
   listen 80;
 
-  server_name influxdb.puzzled-pi.com;
-  access_log  logs/influxdb.access.log;
+  server_name  influxdb.puzzled-pi.com;
+  access_log   logs/influxdb.access.log;
 
   location / {
     proxy_pass http://localhost:8086;
