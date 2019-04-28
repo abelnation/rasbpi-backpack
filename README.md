@@ -46,3 +46,6 @@ https://grafana.com/grafana/download?platform=arm
 wget https://dl.grafana.com/oss/release/grafana_6.1.4_armhf.deb
 sudo dpkg -i grafana_6.1.4_armhf.deb
 ```
+
+imported this dashboard (super cool):
+https://grafana.com/dashboards/4823
