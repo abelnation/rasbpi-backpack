@@ -16,12 +16,8 @@ server {
     proxy_pass  http://localhost:3000/;
   }
 
-  location /influx-admin/ {
-    proxy_pass http://localhost:8083/;
-  }
-
   location /influxdb/ {
-    proxy_pass http://localhost:8086;
+    proxy_pass http://localhost:8083/;
   }
 
   location /echo {
