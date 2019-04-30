@@ -27,4 +27,8 @@ server {
   location /pihole/ {
     proxy_pass  http://localhost:8093/;
   }
+
+  location /djangohello/ {
+    proxy_pass  http://localhost:8001/;
+  }
 }
